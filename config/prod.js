@@ -27,7 +27,7 @@ module.exports = function (env) {
             }),
             new webpack.DefinePlugin({
                 'process.env': {
-                    'NODE_ENV': JSON.stringify(env)
+                    'NODE_ENV': JSON.stringify('production')
                 }
             }),
             // new FaviconsWebpackPlugin('images/favicon.png')
